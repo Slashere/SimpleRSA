@@ -3,8 +3,6 @@ def gcd(p, q):
       return gcd(q, p)
     if p % q == 0:
       return q
-    if p % q == 0:
-        return q
     return gcd(q, p % q)
 
 P = 53
